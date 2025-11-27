@@ -452,7 +452,7 @@ export default function HomeScreen({ navigation }) {
           </View>
           <Text style={styles.restaurantTiming}>
             {item.preparationTime || '5-10 min'} |{' '}
-            {item.distance?.toFixed(1) || '3.9'} miles
+            {item.distance?.toFixed(1) || '3.9'} mile
           </Text>
         </View>
       </TouchableOpacity>
